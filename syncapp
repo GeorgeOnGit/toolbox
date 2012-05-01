@@ -1,0 +1,2 @@
+rsync -av $str/app  $ror/online/
+rsync -av $str/public  $ror/online/

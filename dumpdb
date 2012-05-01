@@ -1,0 +1,5 @@
+
+#dump store_development to $ror/dbrack/store_development.sql
+
+mysqldump -u george -pleonardo store_$1 > $ror/dbrack/store_$1.sql
+ci -l $ror/dbrack/*sql

@@ -1,0 +1,6 @@
+
+#syncdb sourcedb  tgt_db
+#eg. syncdb development production
+mysqldump -u george -pleonardo store_$1 > $ror/dbrack/temporary.sql
+mysql -u george -pleonardo store_$2< $ror/dbrack/temporary.sql
+rm $ror/dbrack/temporary.sql

@@ -1,0 +1,7 @@
+# usage: restoredb database_name
+#     e.g. in order to load  store_development.sql up to store_production:
+#     [george /home/george]  $ restoredb  store_production store_development.sql
+#
+
+mysql -u george -pleonardo $1< $ror/dbrack/$2
+
